@@ -1,0 +1,16 @@
+{
+int a ;
+//input age
+printf("Enter the age of the person: ");
+scanf("%d",&a);
+//check voting eligibility
+if (a>=18)
+{
+printf("Eigibal for voting");
+}
+else
+{
+printf("you are eligibal for voting after %d years\n",18-a);
+}
+return 0;
+}
